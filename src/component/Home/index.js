@@ -17,7 +17,7 @@ const Home =() => {
                 Python Fullstack Developer
                 </h1>
                 <br/>
-                <Link to="/contact" className="flat-button"> Cantact me</Link>
+                <Link to="/portfolio/contact" className="flat-button"> Cantact me</Link>
                 
             </div>
 
