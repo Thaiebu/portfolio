@@ -9,7 +9,7 @@ const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/portfolio/'>
             <img src={LogoS} alt='s-log'/>
-            <p>Mohamed</p>
+            <p class="name">Mohamed</p>
         </Link>
 
         <nav>
