@@ -10,12 +10,14 @@
     .logo {
       display: block;
       padding: 8px 0;
+
   
       img {
         display: block;
         margin: 8px auto;
-        width: 24px;
+        width: 53px;
         height: auto;
+
   
         &.sub-logo {
           width: 50px;
@@ -159,6 +161,7 @@
         z-index: 1;
         position: fixed;
         background-color: #181818;
+       
   
         &.mobile-show {
           display: block;
@@ -168,13 +171,15 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          color: white;
+          font-size: 30px;
         }
   
         a:after {
           opacity: 1;
           position: initial;
           width: auto;
-          margin-left: 10PX;
+          margin-left: 10px;
         }
   
         a svg {
@@ -191,3 +196,8 @@
        }
     }
   }
+
+.name{
+    color: white;
+    font-size: 14px;
+}
