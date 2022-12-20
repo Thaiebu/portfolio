@@ -4,6 +4,8 @@ import Loader from 'react-loaders'
 import "../Layout/index.scss";
 import "./index.scss";
 import  Miracle from '../../assets/images/Full-Stack-Developer.jpg';
+import About from '../About';
+import Contact from '../Contact';
 
 const Home =() => {
     return(
@@ -26,8 +28,15 @@ const Home =() => {
 
             </div>
 
-        </div>
+        </div >
          <Loader type="pacman" />
+        <div class="sample">
+
+        <About/>
+        <Contact/>
+
+        </div>
+     
         
         </>
 
