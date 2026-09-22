@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Thaiebu.github.io/portfolio",
+  "homepage": "https://localrise.co.in/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
