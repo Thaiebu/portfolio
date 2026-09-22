@@ -21,22 +21,22 @@ const Sidebar = () => {
     return(
 
     <div className='nav-bar'>
-    <Link className='logo' to='/portfolio/' onClick={() => setShowNav(false)}>
+    <Link className='logo' to='/' onClick={() => setShowNav(false)}>
         <img src={LogoS} alt='s-log'/>
         <p class="name">Mohamed</p>
     </Link>
 
     {/* <nav>
-        <NavLink exact="true" activeclassnam="active" to="/portfolio/">
+        <NavLink exact="true" activeclassnam="active" to="/">
             <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
         </NavLink>
 
 
-        <NavLink exact="true" activeclassnam="active" className="about-link" to="/portfolio/about">
+        <NavLink exact="true" activeclassnam="active" className="about-link" to="/about">
         <FontAwesomeIcon icon={faUser} color="#4d4d4e"/>
         </NavLink>
 
-        <NavLink exact="true" activeclassnam="active" className="contact-link" to="/portfolio/contact">
+        <NavLink exact="true" activeclassnam="active" className="contact-link" to="/contact">
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
         </NavLink>
     </nav> */}
@@ -44,21 +44,21 @@ const Sidebar = () => {
     <NavLink 
       exact="true"
       activeclassname="active"
-      to="/portfolio/"
+      to="/"
       onClick={() => setShowNav(false)}>
       <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
     </NavLink>
     <NavLink 
       activeclassname="active"
       className="about-link"
-      to="/portfolio/about"
+      to="/about"
       onClick={() => setShowNav(false)}>
       <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
     </NavLink>
     <NavLink
       activeclassname="active"
       className="contact-link"
-      to="/portfolio/contact"
+      to="/contact"
       onClick={() => setShowNav(false)}
     >
       <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
